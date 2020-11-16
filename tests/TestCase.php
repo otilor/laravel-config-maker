@@ -2,9 +2,9 @@
 
 namespace Gabrielfemi\LaravelConfigMaker\Tests;
 
+use Gabrielfemi\LaravelConfigMaker\LaravelConfigMakerServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Gabrielfemi\LaravelConfigMaker\LaravelConfigMakerServiceProvider;
 
 class TestCase extends Orchestra
 {

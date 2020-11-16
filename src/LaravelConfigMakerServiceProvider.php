@@ -2,8 +2,8 @@
 
 namespace Gabrielfemi\LaravelConfigMaker;
 
-use Illuminate\Support\ServiceProvider;
 use Gabrielfemi\LaravelConfigMaker\Commands\LaravelConfigMakerCommand;
+use Illuminate\Support\ServiceProvider;
 
 class LaravelConfigMakerServiceProvider extends ServiceProvider
 {
