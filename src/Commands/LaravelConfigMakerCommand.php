@@ -1,12 +1,12 @@
 <?php
 
-namespace Spatie\Skeleton\Commands;
+namespace Gabrielfemi\LaravelConfigMaker\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class LaravelConfigMakerCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'laravel-config-maker';
 
     public $description = 'My command';
 

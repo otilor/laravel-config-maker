@@ -1,16 +1,16 @@
 {
-    "name": ":vendor_name/:package_name",
-    "description": ":package_description",
+    "name": "gabrielfemi/laravel-config-maker",
+    "description": "Creates configuration file",
     "keywords": [
-        ":vendor_name",
-        ":package_name"
+        "gabrielfemi",
+        "laravel-config-maker"
     ],
-    "homepage": "https://github.com/:vendor_name/:package_name",
+    "homepage": "https://github.com/gabrielfemi/laravel-config-maker",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": ":author_email",
+            "name": "Gabriel Akinyosoye",
+            "email": "gabrielfemi799@gmail.com",
             "homepage": "https://spatie.be",
             "role": "Developer"
         }
@@ -26,13 +26,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\Skeleton\\": "src",
-            "Spatie\\Skeleton\\Database\\Factories\\": "database/factories"
+            "Gabrielfemi\\LaravelConfigMaker\\": "src",
+            "Gabrielfemi\\LaravelConfigMaker\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\Skeleton\\Tests\\": "tests"
+            "Gabrielfemi\\LaravelConfigMaker\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -46,10 +46,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Spatie\\Skeleton\\SkeletonServiceProvider"
+                "Gabrielfemi\\LaravelConfigMaker\\LaravelConfigMakerServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "Spatie\\Skeleton\\SkeletonFacade"
+                "LaravelConfigMaker": "Gabrielfemi\\LaravelConfigMaker\\LaravelConfigMakerFacade"
             }
         }
     },
