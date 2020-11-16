@@ -11,9 +11,9 @@ class CreateConfigTest extends TestCase
     /** @test */
     public function it_can_create_config_file()
     {
-        $fileName = Factory::create()->slug(3) . '.php';
+        $fileName = Factory::create()->slug(3);
         LaravelConfigMaker::create($fileName);
 
-        return $this->assertFileExists('config/' . $fileName);
+        return $this->assertFileExists('config/' . $fileName . '.php');
     }
 }
