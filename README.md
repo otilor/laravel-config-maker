@@ -7,13 +7,6 @@
 
 This is where your description should go. Limit it to a paragraph or two. Consider adding a small example.
 
-## Support us
-
-[<img src="https://github-ads.s3.eu-central-1.amazonaws.com/package-laravel-config-maker-laravel.jpg?t=1" width="419px" />](https://spatie.be/github-ad-click/package-laravel-config-maker-laravel)
-
-We invest a lot of resources into creating [best in class open source packages](https://spatie.be/open-source). You can support us by [buying one of our paid products](https://spatie.be/open-source/support-us).
-
-We highly appreciate you sending us a postcard from your hometown, mentioning which of our package(s) you are using. You'll find our address on [our contact page](https://spatie.be/about-us). We publish all received postcards on [our virtual postcard wall](https://spatie.be/open-source/postcards).
 
 ## Installation
 
@@ -21,13 +14,6 @@ You can install the package via composer:
 
 ```bash
 composer require gabrielfemi/laravel-config-maker
-```
-
-You can publish and run the migrations with:
-
-```bash
-php artisan vendor:publish --provider="Gabrielfemi\LaravelConfigMaker\LaravelConfigMakerServiceProvider" --tag="migrations"
-php artisan migrate
 ```
 
 You can publish the config file with:
@@ -45,8 +31,8 @@ return [
 ## Usage
 
 ``` php
-$laravel-config-maker = new Gabrielfemi\LaravelConfigMaker();
-echo $laravel-config-maker->echoPhrase('Hello, Gabrielfemi!');
+$fileName = 'berry' // Without the '.php' extension
+LaravelConfigMaker::create($fileName);
 ```
 
 ## Testing
