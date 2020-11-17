@@ -1,8 +1,7 @@
 <div align="center">
   <h1>
     <br/>
-    🥵
-    <br />
+    ⚙️
     <br />
     Laravel Config Maker
     <br />
