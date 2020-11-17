@@ -16,25 +16,19 @@ You can install the package via composer:
 composer require gabrielfemi/laravel-config-maker
 ```
 
-You can publish the config file with:
-```bash
-php artisan vendor:publish --provider="Gabrielfemi\LaravelConfigMaker\LaravelConfigMakerServiceProvider" --tag="config"
+## Usage
+
+``` php
+php artisan config:make test
 ```
 
-This is the contents of the published config file:
+This creates a file in the ```config``` directory called ```test.php```
 
+The default content of the file is 
 ```php
 return [
 ];
 ```
-
-## Usage
-
-``` php
-$fileName = 'berry' // Without the '.php' extension
-LaravelConfigMaker::create($fileName);
-```
-
 ## Testing
 
 ``` bash
