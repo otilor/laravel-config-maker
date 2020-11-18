@@ -56,7 +56,6 @@ Please review [our security policy](../../security/policy) on how to report secu
 ## Credits
 
 - [Gabriel Akinyosoye](https://github.com/GabrielFemi)
-- [Abraham Anuoluwapo](https://github.com/anubra266)
 - [All Contributors](../../contributors)
 
 ## License
